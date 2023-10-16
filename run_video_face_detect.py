@@ -90,6 +90,6 @@ while True:
     cv2.imshow('annotated', orig_image)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+print(sum)
 cap.release()
-cv2.destroyAllWindows()
 print("all face num:{}".format(sum))
